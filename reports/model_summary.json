@@ -1,0 +1,55 @@
+{
+  "dataset_file": "DataCo_Logistics_Cleaned.csv",
+  "rows_before_filtering": 180519,
+  "rows_used": 180519,
+  "columns_in_source": 45,
+  "target": "Days for shipping (real)",
+  "target_mean_days": 3.4976539865609713,
+  "target_median_days": 3.0,
+  "train_rows": 60000,
+  "full_chronological_training_period_rows": 144415,
+  "test_rows": 36104,
+  "train_period_start": "2015-01-01 00:00:00",
+  "train_period_end": "2017-04-22 15:17:00",
+  "test_period_start": "2017-04-22 15:17:00",
+  "test_period_end": "2018-01-31 23:38:00",
+  "numeric_features": [
+    "Days for shipment (scheduled)",
+    "Order Item Quantity",
+    "Order Item Discount Rate",
+    "Order Item Product Price",
+    "Order Item Profit Ratio",
+    "Latitude",
+    "Longitude",
+    "Order Month",
+    "Order Day Of Week"
+  ],
+  "categorical_features": [
+    "Type",
+    "Category Name",
+    "Customer Segment",
+    "Market",
+    "Order Region",
+    "Shipping Mode",
+    "Department Name"
+  ],
+  "excluded_post_outcome_fields": [
+    "shipping date (DateOrders)",
+    "Delivery Status",
+    "Late_delivery_risk",
+    "Delivery Delay",
+    "Is Delayed"
+  ],
+  "best_model_by_test_rmse": "Random Forest",
+  "best_model_metrics": {
+    "MAE_days": 0.986326654419739,
+    "RMSE_days": 1.2666515387394788,
+    "R2": 0.3855064777856182
+  },
+  "tuned_decision_tree_best_params": {
+    "model__max_depth": 8,
+    "model__min_samples_leaf": 25
+  },
+  "tuned_decision_tree_cv_rmse_days": 1.3068997334810382,
+  "note": "Chronological holdout evaluation. Metrics are retrospective on this dataset and do not guarantee future operational performance."
+}

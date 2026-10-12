@@ -1,0 +1,16 @@
+Feature,Importance
+num__Days for shipment (scheduled),0.7513882048004022
+cat__Shipping Mode_Same Day,0.10904821784523291
+cat__Shipping Mode_First Class,0.06728833728597906
+num__Latitude,0.014670508138732882
+num__Longitude,0.011576153426502046
+num__Order Item Profit Ratio,0.007523939677689732
+num__Order Item Discount Rate,0.005301517916435987
+num__Order Month,0.005131023375518871
+num__Order Day Of Week,0.004100719073025187
+num__Order Item Product Price,0.003009991955308826
+num__Order Item Quantity,0.0018382595767713742
+cat__Customer Segment_Consumer,0.00121146055347069
+cat__Type_DEBIT,0.0012027897764047798
+cat__Customer Segment_Corporate,0.001155888460734574
+cat__Type_TRANSFER,0.0009453999094974368

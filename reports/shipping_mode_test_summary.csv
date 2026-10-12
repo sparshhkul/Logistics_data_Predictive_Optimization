@@ -1,0 +1,5 @@
+Shipping Mode,records,mean_actual_days,median_actual_days,mean_absolute_error_days
+Standard Class,21554,3.9920200426834924,4.0,1.2109943141841868
+Second Class,7041,3.9808265871325097,4.0,1.2091498951724486
+First Class,5550,2.0,2.0,0.0
+Same Day,1959,0.5329249617151608,1.0,0.5078824253879926
